@@ -1,0 +1,299 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+/***********container****************/
+
+.container{
+    margin: 10px;
+    background-color: rgb(2, 0, 0);
+    text-align: center;
+    border-radius: 550px;
+    margin-top: 1cm;
+    box-sizing: border-box;  
+ }
+
+
+ .button{
+    margin-top: 0.5cm;  
+ }
+ 
+ h2{
+ color: rgb(240, 248, 255);
+ text-align: center;
+ text-transform: capitalize;
+ }
+ 
+
+ input{
+ margin: 0;
+ outline: none;
+ background-color: transparent;
+ color: aliceblue;
+ padding: 2px 2px;
+ font-size: 25px;
+ text-align: center;
+ }
+
+ /*************Védio**************/
+.védio{
+    margin-left: 33%;
+    padding-top: 1cm;
+    
+}
+
+
+/*******************nav*******************/
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid ;
+    height: 5vh;
+}
+
+
+nav h1{
+    color: rgb(6, 3, 8);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+
+nav{
+    margin-top: 3px;   
+}
+
+
+nav .onglets{
+    
+    margin-top: 3px;
+    margin-left: 300px;
+}
+
+
+nav .onglets a{
+text-decoration: none;
+color: rgb(57, 7, 7);
+margin-right: 10px;
+border-bottom: 1px solid rgb(2, 6, 15);
+padding-bottom: 5px;
+margin: 50px;
+}
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url(./photo/photo4.jpg);
+    background-size: cover;
+    color: aliceblue;
+    padding: 50px; 
+}
+
+
+header h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+
+header h4 {
+    margin-top: -20px;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 1px solid cornsilk;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+header button {
+    padding: 5px 20px;
+    background-color: beige;
+    color: black;
+    border: none;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    outline: none;
+    cursor: pointer; 
+}
+
+/***************main*****************/
+
+
+.main{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: centre;
+}
+
+
+.main .content .card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+.main .content .card .left{
+    flex: 0 0 30%;
+    padding: 20px;
+    background-color: black;
+    color: aliceblue;
+}
+
+
+.main .content .card.right{
+    flex: 0 0 70%;  
+}
+
+
+.main .content .card .right img{
+    height:500px;
+    width: 400px;
+    margin-top: 5px;
+}
+
+ul{
+    list-style: none;
+}
+
+
+/*************tableau**************/
+
+.tf {
+    display: flex;
+  }
+  #inlineFrameExample{
+      margin-left: auto;
+  }
+
+
+
+.tableau{
+    border-collapse: collapse;
+    min-width: 30px;
+    width: auto;
+    box-shadow: 0 5px 50px rgb(7, 8, 10);
+    cursor: pointer;
+    margin: 5px ;
+    border: 2px solid rgb(80, 71, 3);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+     
+}
+
+
+thead th{
+    background-color: rgb(1, 1, 7);
+    color: aliceblue;
+    text-align: left;
+}
+
+
+th, th{
+    padding: 5px 5px;
+}
+
+
+tbody  td, th{
+    border: 1px solid rgb(64, 56, 1);
+}
+
+
+tbody tr:nth-child(even){
+    background-color: rgb(142, 6, 6);
+}
+
+
+/*****************iframe*****************/
+iframe {
+    border: 1px solid black;
+    width: 30%;
+    margin-left: 70%;
+}
+
+
+/*********footer***********/
+
+footer{
+    margin-top: 40px;
+    border-top: 5px solid rgb(15, 22, 33);
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    padding: 30px 100px;
+}
+
+
+footer h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-bottom: 1px rgb(224, 228, 236);
+    width: 20%;
+    padding-bottom: 5px;
+}
+
+footer .services{
+    margin-top: -10px;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;   
+}
+
+
+footer .services .service{
+    margin-right: 30px;
+    padding: 10px;    
+}
+
+footer .services .service p{
+    max-width: 300px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+footer #contact{
+    color: rgb(36, 166, 166);
+}
+
+/*****************media**************/
+@media screen and (max-width:680px) {
+    nav .onglets{
+        margin-left: 0px;
+        margin-bottom: 20px;
+        
+    }
+    .main .card{
+        margin: 10px;
+    }
+    .main .content .card .right img{
+        height: 200px;
+        width: 100%;
+        margin-top: 0px;
+    }
+
+    .main .content .card{
+        display: block;
+    }
+
+    footer{
+        padding: 30%;
+
+    }
+    
+}
+
+
+
+
+

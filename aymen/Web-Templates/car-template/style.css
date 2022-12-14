@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    font-size: 50px;
+    color: rgb(148, 4, 4);
+    text-align: center;
+    
+  border: 5px solid rgb(37, 11, 11);
+}
+
+.bar{
+  display: inline-block;
+}
+
+
+h2 {
+    text-align: center;
+}
+
+p {
+    padding-right: 50em;
+    margin-top: 45px;
+    padding-left: 2em;
+    
+    color: white;
+}
+
+.container {
+    
+    height: 300px;
+    width: 100%;
+}
+.photo img{
+    width: 33%;
+    height: 300px;
+    box-shadow:8px 8px 10px 0 rgba(191, 4, 4, 0.5);
+    
+    
+}
